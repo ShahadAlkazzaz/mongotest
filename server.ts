@@ -11,7 +11,7 @@ import {getCars,createCar} from './db/carController'
 import {connect} from 'mongoose'
 import { create } from 'ts-node'
 //Skapar en anslutning till MongoDB och jag upprättar en databas
-connect('mongodb://localhost:27017/richardc')
+connect('mongodb://127.0.0.1:27017/Shahad')
 
 //Använder variabeln app för att arbeta med express
 const app = express()
